@@ -1,2 +1,3 @@
 # git_test
-Testing Repository for TOP Lab
+Hello Odin!
+Testing Repository for TOP Lab 
