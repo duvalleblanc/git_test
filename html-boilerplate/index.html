@@ -1,5 +1,5 @@
 //Duval Le Blanc - 07/24/24
-//The Odin Project Lab - Index File
+//The Odin Project Lab - Creating first Index File (boilerplate)
 
 //Notes - Naming an .html file web servers will look for this file by default
 // when users land on our websites, not having one will cause big problems
@@ -9,15 +9,32 @@
 
 
 
-
+//HTML5 Delcatation
 <!DOCTYPE html>
-//HTML5 Declaration 
-
-//Root Element - All elements will be contained within this element 
-<html lang=""en">
 
 
+//Root Element "html" - All elements will be contained within this element 
+//"lang" element is used to specify the language of text in the that specific element
+<html lang="en">
 
+
+// "head" element is where we put important meta-information about our webpages and things required for to render in the browser
+// in the "head" we SHOULD NOT use any element that displays content on the webpage 
+<head>
+
+    //setting the encoding is important because it is what will render special characters from different languages correctly
+    <meta charset="utf-8">
+
+        //"title" element should always be in the "head" element of the html file, this will output readable text to user on top
+        <title> First Web Page </title>
+
+
+</head>
+            //The "body" element is the last element of the html boilerplate and is ALWAYS below the "head" element
+            <body>
+                This is the body of your first web page. This completes the html boilerplate lab 
+
+            </body>
 
 
 
